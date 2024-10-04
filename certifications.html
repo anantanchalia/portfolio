@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications - Anant Anchalia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg">
+
+    <div id="sidebar" class="sidebar">
+        <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+        <ul>
+            <li onclick="location.href='index.html'"><div class="title">Anant Anchalia</div></li>
+            <li onclick="location.href='profile.html'">Personal Profile</li>
+            <li onclick="location.href='education.html'">Education</li>
+            <li onclick="location.href='internships.html'">Experience</li>
+            <li onclick="location.href='projects.html'">Academic Projects</li>
+            <li onclick="location.href='responsibility.html'">Positions of Responsibility</li>
+            <li onclick="location.href='skills.html'">Technical Skills</li>
+            <li onclick="location.href='activities.html'">Extracurricular Activities</li>
+            <li onclick="location.href='info.html'">Other Information</li>
+            <li onclick="location.href='contact.html'">Contact</li>
+            <li>
+                <form method="get" action="AnantAnchalia_Resume.docx">
+                    <button type="submit">Download Resume</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+<div class="content">
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+        <img src="bmc.png" style="width:90%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="citi.png" style="width:90%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+        <img src="tcs.png" style="width:90%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+        <img src="excel.png" style="width:90%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+        <img src="younity.png" style="width:90%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="bmc.png" style="width:100%" onclick="currentSlide(1)" alt="Bloomberg Market Concepts: Bloomberg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="citi.png" style="width:100%" onclick="currentSlide(2)" alt="APAC Investment Banking Virtual Reality Intern Experience: Forage|CITIBANK ">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="tcs.png" style="width:100%" onclick="currentSlide(3)" alt="Resume and Cover Letter Writing: Tata Consultancy Services">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="excel.png" style="width:100%" onclick="currentSlide(4)" alt="Advanced Microsoft Excel : Christ University|Affecto Consulting">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="younity.png" style="width:100%" onclick="currentSlide(5)" alt="Python Programming for Beginners: Younity ">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--
+    <div style="size-adjust: inherit;margin-left: 290px;flex: 1;transition: margin-left 0.3s;background-color: #333;overflow: auto;white-space: nowrap;">
+            <img src="citi.png" alt="Cinque Terre" width="600" height="400">
+            <img src="bmc.png" alt="Forest" width="600" height="400">
+            <img src="tcs.png" alt="Northern Lights" width="600" height="400">
+            <img src="excel.png" alt="Mountains" width="600" height="400">
+            <img src="younity.png" alt="Mountains" width="600" height="400">
+    </div>
+    
+
+    <div style="color: white;" class="content">
+        <h1>Certifications</h1>
+        <ul>
+            <li>Resume and Cover Letter Writing: Tata Consultancy Services</li>
+            <li>APAC Investment Banking Virtual Reality Intern Experience: Forage|CITIBANK</li> 
+            <li>Responsive Web Design: Free Code Camp</li>
+            <li>Python Programming for Beginners: Younity</li>
+            <li>Advanced Microsoft Excel : Christ University|Affecto Consulting</li> 
+            <li>Bloomberg Market Concepts: Bloomberg</li>
+        </ul>
+    </div>
+-->
+
+    <script src="script.js"></script>
+</body>
+</html>
